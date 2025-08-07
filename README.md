@@ -120,7 +120,7 @@ To customize this portfolio for your own use:
 
 - **GitHub:** [@Fraol-D](https://github.com/Fraol-D)
 - **LinkedIn:** [Fraol Demisse](https://www.linkedin.com/in/fraol-demisse-218b89239/)
-- **Email:** [Your Email]
+- **Email:** [fraolashebir84@gmail.com]
 
 ## 📄 License
 
