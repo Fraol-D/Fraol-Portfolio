@@ -1,12 +1,8 @@
 import React from "react";
 import { Container, Row, Col } from "react-bootstrap";
-import myImg from "../../Assets/avatar.svg";
-import Tilt from "react-parallax-tilt";
-import {
-  AiFillGithub,
-  AiOutlineTwitter,
-  AiFillInstagram,
-} from "react-icons/ai";
+import myImg from "../../Assets/Avatar.jpg";
+// import Tilt from "react-parallax-tilt"; // Temporarily commented out due to jsx-runtime compatibility issues
+import { AiFillGithub } from "react-icons/ai";
 import { FaLinkedinIn } from "react-icons/fa";
 
 function Home2() {
@@ -19,43 +15,48 @@ function Home2() {
               LET ME <span className="purple"> INTRODUCE </span> MYSELF
             </h1>
             <p className="home-about-body">
-              I fell in love with programming and I have at least learnt
-              something, I think… 🤷‍♂️
+              I’m Fraol Ashebir Demisse—builder, tinkerer, and full-stack dev in
+              training. I picked up programming early on and, somehow, I didn’t
+              put it back down.
               <br />
-              <br />I am fluent in classics like
+              <br />
+              These days, I build clean, responsive web apps with tools like
+              React, Tailwind, and Firebase
               <i>
-                <b className="purple"> C++, Javascript and Go. </b>
-              </i>
-              <br />
-              <br />
-              My field of Interest's are building new &nbsp;
-              <i>
-                <b className="purple">Web Technologies and Products </b> and
-                also in areas related to{" "}
                 <b className="purple">
-                  Blockchain.
+                  —often using Cursor and AI to speed up the dev process (yes,
+                  ChatGPT is my co-pilot, and I’m not shy about it).{" "}
                 </b>
               </i>
               <br />
               <br />
-              Whenever possible, I also apply my passion for developing products
-              with <b className="purple">Node.js</b> and
+              My field of Interest is {}
+              <i>
+                <b className="purple">
+                  Agentic AI, I’ve got a thing for efficiency, clear design,{" "}
+                </b>{" "}
+                building tech that’s actually <b className="purple">useful.</b>
+              </i>
+              <br />
+              <br />
+              Whenever I’m not deep in the code,{" "}
+              <b className="purple">I’m sketching new ideas</b> and
+              <i>
+                <b className="purple"> exploring marketing tactics,</b>
+              </i>
+              {} or learning how to
               <i>
                 <b className="purple">
                   {" "}
-                  Modern Javascript Library and Frameworks
+                  turn side projects into scalable businesses.
                 </b>
-              </i>
-              &nbsp; like
-              <i>
-                <b className="purple"> React.js and Next.js</b>
               </i>
             </p>
           </Col>
           <Col md={4} className="myAvtar">
-            <Tilt>
-              <img src={myImg} className="img-fluid" alt="avatar" />
-            </Tilt>
+            {/* <Tilt> */}
+            <img src={myImg} className="img-fluid" alt="avatar" />
+            {/* </Tilt> */}
           </Col>
         </Row>
         <Row>
@@ -67,7 +68,7 @@ function Home2() {
             <ul className="home-about-social-links">
               <li className="social-icons">
                 <a
-                  href="https://github.com/soumyajit4419"
+                  href="https://github.com/Fraol-D"
                   target="_blank"
                   rel="noreferrer"
                   className="icon-colour  home-social-icons"
@@ -77,32 +78,12 @@ function Home2() {
               </li>
               <li className="social-icons">
                 <a
-                  href="https://twitter.com/Soumyajit4419"
-                  target="_blank"
-                  rel="noreferrer"
-                  className="icon-colour  home-social-icons"
-                >
-                  <AiOutlineTwitter />
-                </a>
-              </li>
-              <li className="social-icons">
-                <a
-                  href="https://www.linkedin.com/in/soumyajit4419/"
+                  href="https://www.linkedin.com/in/fraol-demisse-218b89239/"
                   target="_blank"
                   rel="noreferrer"
                   className="icon-colour  home-social-icons"
                 >
                   <FaLinkedinIn />
-                </a>
-              </li>
-              <li className="social-icons">
-                <a
-                  href="https://www.instagram.com/soumyajit4419"
-                  target="_blank"
-                  rel="noreferrer"
-                  className="icon-colour home-social-icons"
-                >
-                  <AiFillInstagram />
                 </a>
               </li>
             </ul>

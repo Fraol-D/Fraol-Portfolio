@@ -155,9 +155,11 @@ button:focus {
 }
 
 .logo {
-  height: 1.4em !important;
+  height: 2.5em !important;
   width: 2.5em !important;
 }
+
+
 
 .navbar-nav .nav-link {
   color: white !important;
@@ -291,7 +293,7 @@ button:focus {
 }
 .Typewriter__cursor {
   font-size: 2.4em !important;
-  color: #b562d6 !important;
+  color: #be6adf !important;
 }
 
 @media (max-width: 767px) {
