@@ -1,9 +1,9 @@
 <h2 align="center">
-  Portfolio Website - v2.0<br/>
-  <a href="https://soumyajit.vercel.app/" target="_blank">soumyajit.tech</a>
+  Fraol Demisse - Portfolio Website<br/>
+  <a href="https://fraol-portfolio.vercel.app/" target="_blank">fraol-portfolio.vercel.app</a>
 </h2>
 <div align="center">
-  <img alt="Demo" src="./Images/readme-img1.png" />
+  <img alt="Portfolio Demo" src="./Images/readme-img1.png" />
 </div>
 
 <br/>
@@ -13,64 +13,131 @@
 [![forthebadge](https://forthebadge.com/images/badges/built-with-love.svg)](https://forthebadge.com) &nbsp;
 [![forthebadge](https://forthebadge.com/images/badges/made-with-javascript.svg)](https://forthebadge.com) &nbsp;
 [![forthebadge](https://forthebadge.com/images/badges/open-source.svg)](https://forthebadge.com) &nbsp;
-![GitHub Repo stars](https://img.shields.io/github/stars/soumyajit4419/Portfolio?color=red&logo=github&style=for-the-badge) &nbsp;
-![GitHub forks](https://img.shields.io/github/forks/soumyajit4419/Portfolio?color=red&logo=github&style=for-the-badge)
+![GitHub Repo stars](https://img.shields.io/github/stars/Fraol-D/Fraol-Portfolio?color=red&logo=github&style=for-the-badge) &nbsp;
+![GitHub forks](https://img.shields.io/github/forks/Fraol-D/Fraol-Portfolio?color=red&logo=github&style=for-the-badge)
 
 </center>
 
 <h3 align="center">
     🔹
-    <a href="https://github.com/soumyajit4419/Portfolio/issues">Report Bug</a> &nbsp; &nbsp;
+    <a href="https://github.com/Fraol-D/Fraol-Portfolio/issues">Report Bug</a> &nbsp; &nbsp;
     🔹
-    <a href="https://github.com/soumyajit4419/Portfolio/issues">Request Feature</a>
+    <a href="https://github.com/Fraol-D/Fraol-Portfolio/issues">Request Feature</a>
 </h3>
 
-## TL;DR
+## 👨‍💻 About Me
 
-You can fork this repo to modify and make changes of your own. Please give me proper credit by linking back to [Soumyajit4419](https://github.com/soumyajit4419/Portfolio). Thanks!
+Hi, I'm **Fraol Demisse** - a passionate full-stack developer from Addis Ababa, Ethiopia. I'm currently pursuing a Bachelor of Science in Computer Science at Unity University and exploring freelancing opportunities on Upwork while learning agentic AI development.
 
-## Built With
+## 🚀 Live Demo
 
-My personal portfolio <a href="https://soumyajit.vercel.app/" target="_blank">soumyajit.tech</a> which features some of my github projects as well as my resume and technical skills.<br/>
+**Visit my portfolio:** [https://fraol-portfolio.vercel.app/](https://fraol-portfolio.vercel.app/)
 
-This project was built using these technologies.
+## 🛠 Built With
 
-- React.js
-- Node.js
-- Express.js
-- CSS3
-- VsCode
-- Vercel
+This portfolio was built using modern web technologies:
 
-## Features
+- **React.js** - Frontend framework
+- **React Bootstrap** - UI components and styling
+- **CSS3** - Custom styling and animations
+- **React Router** - Navigation and routing
+- **React Icons** - Icon library
+- **Typewriter Effect** - Animated text
+- **React Particles** - Background animations
+- **React PDF** - Resume viewer
 
-**📖 Multi-Page Layout**
+## ✨ Features
 
-**🎨 Styled with React-Bootstrap and Css with easy to customize colors**
+**🎨 Modern Design** - Clean, professional interface with smooth animations
 
-**📱 Fully Responsive**
+**📱 Fully Responsive** - Optimized for all devices and screen sizes
 
-## Getting Started
+**⚡ Fast Performance** - Optimized loading and smooth interactions
 
-Clone down this repository. You will need `node.js` and `git` installed globally on your machine.
+**🎯 Multi-Page Layout** - Home, About, Projects, and Resume sections
 
-## 🛠 Installation and Setup Instructions
+**🔧 Easy Customization** - Well-structured components for easy modifications
 
-1. Installation: `npm install`
+## 🎯 Key Sections
 
-2. In the project directory, you can run: `npm start`
+- **Home** - Introduction and hero section
+- **About** - Personal information and technical skills
+- **Projects** - Showcase of my best work
+- **Resume** - Professional experience and education
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
-The page will reload if you make edits.
+## 🚀 Getting Started
 
-## Usage Instructions
+### Prerequisites
 
-Open the project folder and Navigate to `/src/components/`. <br/>
-You will find all the components used and you can edit your information accordingly.
+- Node.js (v14 or higher)
+- npm or yarn
 
-### Show your support
+### Installation
 
-Give a ⭐ if you like this website!
+1. **Clone the repository**
+   ```bash
+   git clone https://github.com/Fraol-D/Fraol-Portfolio.git
+   cd Fraol-Portfolio
+   ```
 
-<a href="https://www.buymeacoffee.com/soumyajit4419" target="_blank"><img src="https://cdn.buymeacoffee.com/buttons/v2/default-violet.png" alt="Buy Me A Coffee" height= "60px" width= "217px" ></a>
+2. **Install dependencies**
+   ```bash
+   npm install
+   ```
+
+3. **Start the development server**
+   ```bash
+   npm start
+   ```
+
+4. **Open your browser**
+   Navigate to [http://localhost:3000](http://localhost:3000)
+
+## 📁 Project Structure
+
+```
+src/
+├── components/          # React components
+│   ├── Home/           # Home page components
+│   ├── About/          # About page components
+│   ├── Projects/       # Projects showcase
+│   ├── Resume/         # Resume viewer
+│   └── Footer.js       # Footer component
+├── Assets/             # Images and assets
+│   ├── favicon/        # Logo and favicon files
+│   └── Projects/       # Project screenshots
+└── style.css           # Global styles
+```
+
+## 🎨 Customization
+
+To customize this portfolio for your own use:
+
+1. **Update personal information** in `/src/components/`
+2. **Replace images** in `/src/Assets/`
+3. **Modify colors** in `/src/style.css`
+4. **Add your projects** in `/src/components/Projects/Projects.js`
+
+## 📞 Contact
+
+- **GitHub:** [@Fraol-D](https://github.com/Fraol-D)
+- **LinkedIn:** [Fraol Demisse](https://www.linkedin.com/in/fraol-demisse-218b89239/)
+- **Email:** [Your Email]
+
+## 📄 License
+
+This project is open source and available under the [MIT License](LICENSE).
+
+## 🙏 Acknowledgments
+
+- Original template by [Soumyajit4419](https://github.com/soumyajit4419/Portfolio)
+- Icons by [React Icons](https://react-icons.github.io/react-icons/)
+- UI components by [React Bootstrap](https://react-bootstrap.github.io/)
+
+---
+
+<div align="center">
+
+**⭐ Star this repository if you found it helpful!**
+
+</div>
