@@ -97,7 +97,7 @@ button:focus {
 
 .navbar-toggler span {
   display: block !important;
-  background-color: #be50f4 !important;
+  background-color: #ffffff !important;
   height: 4px !important;
   width: 27px !important;
   margin-top: 5px !important;
@@ -159,8 +159,6 @@ button:focus {
   width: 2.5em !important;
 }
 
-
-
 .navbar-nav .nav-link {
   color: white !important;
   padding-right: 1rem !important;
@@ -196,7 +194,7 @@ button:focus {
   height: 5px;
   width: 0;
   border-radius: 16px;
-  background: #c95bf5;
+  background: #ffffff;
   bottom: 1px;
   left: 0;
   z-index: -1;
@@ -210,6 +208,17 @@ button:focus {
 /* --------- */
 /* Home section */
 /* --------- */
+.page-anim {
+  opacity: 0;
+  transform: translateY(8px);
+  animation: pageIn 0.35s ease forwards;
+}
+@keyframes pageIn {
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
 .wave {
   animation-name: wave-animation; /* Refers to the name of your @keyframes element below */
   animation-duration: 2.1s; /* Change to speed up or slow down */
@@ -245,11 +254,7 @@ button:focus {
   }
 }
 #tsparticles {
-  position: fixed !important;
-  background-repeat: no-repeat !important;
-  background-size: cover !important;
-  width: 100%;
-  height: 100%;
+  display: none !important;
 }
 
 .home-header {
@@ -259,7 +264,7 @@ button:focus {
 .home-section {
   position: relative;
   z-index: -1;
-  background-image: var(--image-gradient), url(./Assets/home-bg.jpg);
+  background: transparent !important;
   background-position: top center;
   background-repeat: no-repeat;
   padding-bottom: 30px !important;
@@ -397,7 +402,7 @@ button:focus {
 }
 
 .icon-colour {
-  color: #700c86 !important;
+  color: #ffffff !important;
 }
 
 /* --------- */
@@ -462,7 +467,7 @@ button:focus {
 }
 
 .project-card-view {
-  box-shadow: 0 4px 5px 3px rgba(119, 53, 136, 0.459) !important;
+  box-shadow: 0 4px 5px 3px rgba(255, 255, 255, 0.06) !important;
   color: white !important;
   background-color: transparent !important;
   opacity: 0.9 !important;
@@ -472,7 +477,7 @@ button:focus {
 .project-card-view:hover {
   transform: scale(1.02) !important;
   overflow: hidden !important;
-  box-shadow: 0 4px 4px 5px rgba(129, 72, 144, 0.561) !important;
+  box-shadow: 0 4px 8px 2px rgba(255, 255, 255, 0.08) !important;
 }
 
 .blog-card {
@@ -485,7 +490,7 @@ button:focus {
 
 .blog-card-view {
   background-color: transparent !important;
-  box-shadow: 0 3px 3px 2px rgba(145, 77, 161, 0.459) !important;
+  box-shadow: 0 3px 3px 2px rgba(255, 255, 255, 0.06) !important;
   color: white !important;
   transition: all 0.5s ease 0s !important;
   height: 100% !important;
@@ -742,4 +747,60 @@ button:focus {
 }
 .fork-btn-inner::after {
   display: none !important;
+}
+
+/* ===== High-contrast black & white theme + animated gradient background ===== */
+@keyframes gradientShift {
+  0% {
+    background-position: 0% 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+  100% {
+    background-position: 0% 50%;
+  }
+}
+
+/* Replace particle canvas */
+#tsparticles {
+  display: none !important;
+}
+
+/* Global animated gradient backdrop (GPU-friendly) */
+.home-section::before,
+.project-section::before,
+.about-section::before,
+.resume-section::before {
+  content: "";
+  position: fixed;
+  inset: 0;
+  z-index: -2;
+  background: linear-gradient(120deg, #000000, #1a1a1a, #000000);
+  background-size: 200% 200%;
+  animation: gradientShift 16s ease-in-out infinite;
+}
+
+/* High-contrast accents */
+.purple {
+  color: #ffffff !important;
+}
+.navbar-nav .nav-item a::after {
+  background: #ffffff !important;
+}
+.home-social-icons:hover {
+  color: #ffffff;
+  box-shadow: 0 0 5px #ffffff;
+  text-shadow: 0 0 2px #ffffff;
+}
+
+.btn-primary {
+  color: #000 !important;
+  background-color: #ffffff !important;
+  border-color: #ffffff !important;
+}
+.btn-primary:hover {
+  color: #000 !important;
+  background-color: #e6e6e6 !important;
+  border-color: #e6e6e6 !important;
 }
