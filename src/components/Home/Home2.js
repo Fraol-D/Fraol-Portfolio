@@ -15,8 +15,7 @@ function Home2() {
               LET ME <span className="purple"> INTRODUCE </span> MYSELF
             </h1>
             <p className="home-about-body">
-              I’m Fraol Ashebir Demisse—builder, tinkerer, and full-stack dev in
-              training. I picked up programming early on and, somehow, I didn’t
+              I’m Fraol Ashebir Demisse—builder, tinkerer, and full-stack dev. I picked up programming early on and, somehow, I didn’t
               put it back down.
               <br />
               <br />
