@@ -2,9 +2,9 @@ import React, { useMemo, useState } from "react";
 import { Container, Row, Col } from "react-bootstrap";
 import ProjectCard from "./ProjectCards";
 import Particle from "../Particle";
-import amazonClone from "../../Assets/Projects/Amazon-Clone.png";
-import netflixClone from "../../Assets/Projects/Netflix-Clone.png";
-import rentMaster from "../../Assets/Projects/RentMaster.png";
+import amazonClone from "../../Assets/Projects/Amazon-Clone.webp";
+import netflixClone from "../../Assets/Projects/Netflix-Clone.webp";
+import rentMaster from "../../Assets/Projects/RentMaster.webp";
 
 function Projects() {
   const [filter, setFilter] = useState("All");

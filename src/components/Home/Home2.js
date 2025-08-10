@@ -1,6 +1,6 @@
 import React from "react";
 import { Container, Row, Col } from "react-bootstrap";
-import myImg from "../../Assets/Avatar.jpg";
+import myImg from "../../Assets/Fraol.jpg";
 // import Tilt from "react-parallax-tilt"; // Temporarily commented out due to jsx-runtime compatibility issues
 import { AiFillGithub } from "react-icons/ai";
 import { FaLinkedinIn } from "react-icons/fa";

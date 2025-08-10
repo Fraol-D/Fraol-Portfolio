@@ -402,7 +402,22 @@ button:focus {
 }
 
 .icon-colour {
-  color: #ffffff !important;
+  color: #000000 !important;
+}
+.home-social-icons svg {
+  fill: #000000 !important;
+}
+.home-social-icons {
+  background: #ffffff !important;
+}
+.home-social-icons::before {
+  background: #ffffff !important;
+  box-shadow: none;
+}
+.home-social-icons:hover {
+  color: #000000;
+  box-shadow: 0 0 8px rgba(255, 255, 255, 0.45);
+  text-shadow: none;
 }
 
 /* --------- */
